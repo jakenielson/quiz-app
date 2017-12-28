@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
 import DeckListItem from './DeckListItem';
 import Header from './Header';
+import { white } from '../utils/colors';
 
-class NewDeck extends Component {
+export default class NewDeck extends Component {
   render() {
     return (
       <View style={styles.container}>

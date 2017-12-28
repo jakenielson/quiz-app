@@ -9,19 +9,15 @@ import NewCard from './components/NewCard';
 
 const MainNavigator = StackNavigator({
   Home: {
-    screen: DeckList
+    screen: DeckList,
   },
   NewDeck: {
-    screen: NewDeck
+    screen: NewDeck,
   },
-  DeckView: {
-    screen: DeckView
-  },
-  QuizView: {
-    screen: QuizView
-  },
+  // DeckView
+  // QuizView
   NewCard: {
-    screen: NewCard
+    screen: NewCard,
   }
 })
 
@@ -39,7 +35,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
+    alignItems: 'stretch',
     justifyContent: 'center',
   },
 });
