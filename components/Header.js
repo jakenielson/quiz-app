@@ -8,7 +8,7 @@ export default class Header extends Component {
 
     return (
       <View style={styles.container}>
-        <Text>
+        <Text style={styles.text}>
           {title}
         </Text>
       </View>
@@ -20,6 +20,9 @@ const styles = StyleSheet.create({
   container: {
     height: 20,
     backgroundColor: purple,
-    padding: 15
+  },
+  text: {
+    margin: 0,
+    padding: 0
   }
 })
