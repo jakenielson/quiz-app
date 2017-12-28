@@ -16,6 +16,15 @@ export default class DeckList extends Component {
       {
         name: 'Test 3',
       },
+      {
+        name: 'Test 4',
+      },
+      {
+        name: 'Test 5',
+      },
+      {
+        name: 'Test 6',
+      },
     ],
   }
   render() {
@@ -23,7 +32,7 @@ export default class DeckList extends Component {
     return (
       <View style={styles.container}>
         <Header nav='NewDeck' title='QuizApp' />
-        <ScrollView contentContainerStyle={styles.scrollView}>
+        <ScrollView style={styles.scrollView}>
           {decks.map((deck) => (
             <DeckListItem deck={deck} key={deck.name}/>
           ))}
@@ -38,10 +47,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   scrollView: {
-    flex: 1,
     backgroundColor: blue,
-    padding: 15,
-    flexDirection: 'column',
-    alignItems: 'stretch',
   }
 })

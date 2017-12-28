@@ -18,9 +18,9 @@ export default class DeckListItem extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    height: 150,
     backgroundColor: red,
     padding: 15,
-    height: 50
+    margin: 10
   }
 })
