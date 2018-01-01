@@ -24,6 +24,9 @@ const MainNavigator = StackNavigator({
   NewDeck: {
     screen: NewDeck,
   },
+  DeckView: {
+    screen: DeckView,
+  },
   // DeckView
   // QuizView
   NewCard: {
